@@ -6,4 +6,4 @@ RUN apt-key adv --keyserver keyserver.ubuntu.com --recv 7F0CEB10 && \
   apt-get install -y mongodb-org
 
 #install globals
-RUN npm install -g nodemon dredd babel-cli migrate phantomjs
+RUN npm install -g nodemon dredd babel-cli migrate phantomjs node-inspector
